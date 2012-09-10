@@ -1,0 +1,20 @@
+<!doctype html>
+<head>
+<meta charset="utf-8" />
+<title>404router - example</title>
+</head>
+<body>
+<div id="result"></div>
+<code><pre>
+$404router.route('/test/:id',function(pram){
+	document.getElementById('result').innerHTML = pram.id;
+})
+</pre></code>
+</body>
+<script src="./lib/404router.js"></script>
+<script>
+$404router.route('/test/:id',function(pram){
+	document.getElementById('result').innerHTML = pram.id;
+})
+</script>
+</html>
