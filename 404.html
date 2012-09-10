@@ -5,16 +5,19 @@
 </head>
 <body>
 <div id="result"></div>
+<div>
+<p>the code:</p>
 <code><pre>
 $404router.route('/test/:id',function(pram){
-	document.getElementById('result').innerHTML = pram.id;
+	document.getElementById('result').innerHTML = 'request id is:'+pram.id;
 })
 </pre></code>
+</div>
 </body>
 <script src="/lib/404router.js"></script>
 <script>
 $404router.route('/test/:id',function(pram){
-	document.getElementById('result').innerHTML = pram.id;
+	document.getElementById('result').innerHTML = 'request id is:'+pram.id;
 })
 </script>
 </html>
