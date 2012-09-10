@@ -11,4 +11,4 @@ Usage:
 
 Example Page:
 
-	<http://toooobug.github.com/404router/test/299792458>
+<http://toooobug.github.com/404router/test/299792458>
